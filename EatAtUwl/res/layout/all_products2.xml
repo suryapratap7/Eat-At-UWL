@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+	<!-- Main ListView 
+		 Always give id value as list(@android:id/list)
+	-->
+
+ <TextView
+     android:id="@+id/textView1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:text="All Restaurants Name"
+     android:textAppearance="?android:attr/textAppearanceLarge"
+  
+     android:textSize="20dp"
+    
+      android:textStyle="bold" 
+       android:gravity="center"
+         android:textColor="#66FF66"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="486dp"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+</LinearLayout>

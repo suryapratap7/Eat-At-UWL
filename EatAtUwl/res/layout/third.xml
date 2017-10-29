@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="SubAdmin Log In"
+         android:textColor="#050506"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:background="@color/translucent_red"  />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="45dp"
+        android:text="Owner Log In" 
+         android:textColor="#050506"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:background="@color/translucent_red" />
+
+</RelativeLayout>

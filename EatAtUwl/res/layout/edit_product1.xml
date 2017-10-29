@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+    
+    <!-- Name Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="User Name"
+        android:textSize="17dip" 
+         
+        android:textColor="#050506"
+ 
+        android:textStyle="italic" />
+    
+    <!-- Input Name -->
+	<EditText android:id="@+id/inputName"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"
+	        
+        android:textColor="#050506"
+        android:textSize="25dp"
+        android:textStyle="italic" 
+          android:background="@color/translucent_red"/>
+	
+	<!-- Price Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Email"
+        android:textSize="17dip"   android:textColor="#050506"
+    
+        android:textStyle="italic" />
+    
+    <!-- Input Price -->
+	<EditText android:id="@+id/inputPrice" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"
+	    android:inputType="numberDecimal"
+	           
+        android:textColor="#050506"
+        android:textSize="25dp"
+        android:textStyle="italic" 
+          android:background="@color/translucent_red"/>
+	
+	<!-- Description Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Mobile Number"
+        android:textSize="17dip" 
+               
+        android:textColor="#050506"
+     
+        android:textStyle="italic" 
+      />
+    
+    <!-- Input description -->
+
+	<EditText
+	    android:id="@+id/inputDesc"
+	    android:layout_width="fill_parent"
+	    android:layout_height="30dp"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:background="@color/translucent_red"
+	    android:gravity="top"
+	    android:lines="4"
+	    android:textColor="#050506"
+	    android:textSize="25dp"
+	    android:textStyle="italic" />
+	
+	<LinearLayout android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <!-- Button Create Product -->
+	<Button android:id="@+id/btnSave" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Save Changes"
+	    android:layout_weight="1"
+	           
+        android:textColor="#050506"
+        android:textSize="25dp"
+        android:textStyle="italic" 
+          android:background="@color/translucent_red"/>
+	
+	<!-- Button Create Product -->
+	<Button android:id="@+id/btnDelete" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Delete"
+	    android:layout_weight="1"
+	           
+        android:textColor="#050506"
+        android:textSize="25dp"
+        android:textStyle="italic" 
+          android:background="@color/translucent_red"/>	    
+	</LinearLayout>
+	
+</LinearLayout>
